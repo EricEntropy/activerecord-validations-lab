@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+system('clear')
 RSpec.describe Author, type: :model do
   it "is valid" do
     author = Author.new(name: "Caligula", phone_number: 5553054425)
